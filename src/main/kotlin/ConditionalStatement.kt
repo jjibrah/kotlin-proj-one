@@ -41,6 +41,4 @@ fun main(args: Array<String>) {
             println("Pleae enter a number from 1-4 to bet")
         }
     }
-    // tokens = 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
-
 }

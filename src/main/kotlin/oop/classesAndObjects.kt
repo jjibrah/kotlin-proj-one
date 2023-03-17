@@ -49,4 +49,3 @@ class Car(model:String, reg_no:String, price:Double){
         println("i am a $model and I can break")
     }
 }
-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

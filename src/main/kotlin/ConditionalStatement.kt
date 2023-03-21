@@ -1,9 +1,14 @@
 fun main(args: Array<String>) {
     //IF STATEMENT
-    var age = 20
+    var age = 672
     if (age < 18){
         println("Sorry you are underage")
-    }else{
+    }else if(age in 50 ..109){
+        println("Sorry you are overage")
+    }else if (age>110){
+        println("Please enter a valid age")
+    }
+    else{
         println("welcome to the party")
     }
 

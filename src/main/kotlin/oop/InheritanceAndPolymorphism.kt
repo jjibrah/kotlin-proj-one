@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
     headTeacherOne.register()
     headTeacherOne.suspendStudent()
     headTeacherOne.approveCash()
+    headTeacherOne.suspendteacher()
 }
 
 open class Student(open var name:String,open var  email:String,open var  password:String){
@@ -38,5 +39,8 @@ open class Teacher(name:String,email:String, password:String):Student(name, emai
 class Headteacher(name:String,email:String, password:String):Teacher(name, email, password){
     fun approveCash(){
         println("Yeah I can approve cash")
+    }
+    fun suspendteacher(){
+        println("Yeah I can suspend a teacher")
     }
 }

@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
 }
 
 fun avg(x:Int, y:Double){
-    var answer = (x + y )/ 3.0
+    var answer = (x + y )/ 2.0
     println("Results fom avg1 is $answer")
 }
 fun avg(x:Int, y:Double, z:Double){

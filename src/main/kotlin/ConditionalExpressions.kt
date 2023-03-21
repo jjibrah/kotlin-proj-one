@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    var marks = 98
+    var marks = 988
     var grade = if (marks < 50){
         "E"
     }else if (marks < 60){
@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     }else if (marks < 80){
         "B"
     }else if (marks > 100){
-        "Invalid grade"
+        "Invalid marks, Please enter valid marks."
     }else {
         "A"
     }

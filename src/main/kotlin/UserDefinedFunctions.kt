@@ -1,18 +1,16 @@
 fun main(args: Array<String>) {
     motto()
-    add()
+    add( 323, 34342.0)
     avg(200, 500.0, 800.0f)
     avg(500, 300.0, 600.0f)
     println(sam(20, 40))
 }
 
 fun motto(){
-    println("Hello there this is our motto")
+    println("Jishinde Ushinde")
 }
 
-fun add(){
-    var x = 10
-    var y = 20
+fun add(x: Int, y: Double){
     var z = x + y
     println("Hello there you answer is $z")
 }

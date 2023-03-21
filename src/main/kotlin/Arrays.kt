@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     println(names[3])
     names.add("king")
 
-    //use dor in loop
+    //use for in loop
     for (i in 0 until names.size-1) {
         println(names[i])
     }
